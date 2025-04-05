@@ -66,6 +66,9 @@ console.log("Reversed Array:",reversedArray);
 const uniqueArray = lodash.uniq([1,2,3,4,5,1,2,3,4,5]);
 console.log("Unique Array:",uniqueArray);
 
+const sortedArray = lodash.sortBy(numbers);
+console.log("Sorted Array:",sortedArray);
+
 
 
 
