@@ -1,0 +1,3 @@
+Hi, my name is Aftab Alam, and I’m currently pursuing my B.Tech in Computer Science and Engineering 
+from GLA University, with a CGPA of 8.61. I have a strong interest in Data Structures and Algorithms, 
+and I’ve solved over 390 problems on LeetCode, exploring topics like dynamic programming, graphs, and trees.
