@@ -8,6 +8,8 @@ const fs = require('fs');
 //     console.log(data);
 
 // })
+
+
 // const content = "Hello World! This is a test file.";
 
 // fs.writeFile('content.txt',content,(err)=>{
@@ -17,6 +19,15 @@ const fs = require('fs');
 //     }
 //     console.log('File written successfully!');
 // })
+
+
+
+fs.writeFile('file.txt',"welcome to gla",(err)=>{
+    if(err){
+        console.log("something went wrong while writing");
+    }
+    console.log("succsesfully write the file");
+})
 
 
 
@@ -64,19 +75,19 @@ const fs = require('fs');
 
 // perform operation on a large file
 
-const readLine = require('readline');
-const readableStream = fs.createReadStream('example.txt',{encoding:'utf8'});
-const rl = readLine.createInterface({
-    input: readableStream,
-})
+// const readLine = require('readline');
+// const readableStream = fs.createReadStream('example.txt',{encoding:'utf8'});
+// const rl = readLine.createInterface({
+//     input: readableStream,
+// })
 
-rl.on('line',(line)=>{
-    console.log('Line',line);
-});
+// rl.on('line',(line)=>{
+//     console.log('Line',line);
+// });
 
-rl.on('close',()=>{
-    console.log('Finished processing the file.');
-});
+// rl.on('close',()=>{
+//     console.log('Finished processing the file.');
+// });
 
 
 
